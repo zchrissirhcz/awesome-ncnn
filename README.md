@@ -1,8 +1,8 @@
 # Awesome-NCNN
 
-[NCNN](https://github.com/tencent/ncnn) is a high-performance neural network inference framework optimized for the mobile platform. [This repo](https://github.com/zchrissirhcz/awesome-ncnn) lists some awesome ncnn-based projects.
+[NCNN](https://github.com/tencent/ncnn) is a high-performance neural network inference framework optimized for the mobile platform. [This repo](https://github.com/zchrissirhcz/awesome-ncnn) lists some awesome ncnn-based projects. Welcome Star & Fork & Pull Requests!
 
-[NCNN](https://github.com/tencent/ncnn) 是一个为手机端极致优化的高性能神经网络前向计算框架。[本仓库](https://github.com/zchrissirhcz/awesome-ncnn) 收集了基于NCNN的很棒的项目。
+[NCNN](https://github.com/tencent/ncnn) 是一个为手机端极致优化的高性能神经网络前向计算框架。[本仓库](https://github.com/zchrissirhcz/awesome-ncnn) 收集了基于NCNN的很棒的项目。欢迎 star & fork & pull request 一键三连！
 
 
 ## PFLD pytorch Implementation ，自带 ncnn 推理实现
@@ -91,3 +91,15 @@ https://github.com/paleomoon/darknet-ncnn-android
 ## ROS wrapper for NCNN neural inference framework
 
 https://github.com/nilseuropa/ros_ncnn
+
+
+
+## 超轻量级中文ocr，支持竖排文字识别, 支持ncnn推理
+
+https://github.com/ouyanghuiyu/chineseocr_lite
+
+
+
+## waifu2x converter ncnn version, runs fast on intel / amd / nvidia GPU with vulkan
+
+https://github.com/nihui/waifu2x-ncnn-vulkan
