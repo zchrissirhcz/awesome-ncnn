@@ -108,3 +108,22 @@ https://github.com/nihui/waifu2x-ncnn-vulkan
 ## python wrapper of ncnn with pybind11
 
 https://github.com/caishanli/pyncnn
+
+
+## 1MB lightweight face detection model (1MB轻量级人脸检测模型)
+
+https://github.com/Linzaer/Ultra-Light-Fast-Generic-Face-Detector-1MB
+
+
+## Caffe INT8 Quantization convert tool
+
+https://github.com/BUG1989/caffe-int8-convert-tools
+
+## A collection of ncnn examples: face/mask detection, tracking, recognition...
+
+https://github.com/MirrorYuChen/ncnn_example
+
+
+## mobile-lpr: 一个面向移动端的准商业级车牌识别库
+
+https://github.com/xiangweizeng/mobile-lpr
