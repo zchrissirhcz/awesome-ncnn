@@ -103,3 +103,8 @@ https://github.com/ouyanghuiyu/chineseocr_lite
 ## waifu2x converter ncnn version, runs fast on intel / amd / nvidia GPU with vulkan
 
 https://github.com/nihui/waifu2x-ncnn-vulkan
+
+
+## python wrapper of ncnn with pybind11
+
+https://github.com/caishanli/pyncnn
