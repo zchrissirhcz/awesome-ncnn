@@ -8,6 +8,14 @@
 ## 应用类
 针对具体任务、场景的基于ncnn的项目
 
+
+### YOLOv5 NCNN Implementation
+
+YOLOv5 on Android based on NCNN
+
+https://github.com/sunnyden/YOLOV5_NCNN_Android
+
+
 ### PFLD pytorch Implementation ，自带 ncnn 推理实现
 
 Practical Facial Landmark Detector with PyTorch and NCNN implementation.
