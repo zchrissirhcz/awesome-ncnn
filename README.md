@@ -5,7 +5,7 @@
 [NCNN](https://github.com/tencent/ncnn) 是一个为手机端极致优化的高性能神经网络前向计算框架。[本仓库](https://github.com/zchrissirhcz/awesome-ncnn) 收集了基于NCNN的很棒的项目。欢迎 star & fork & pull request 一键三连！
 
 
-## 应用类
+## Applications 应用类
 针对具体任务、场景的基于ncnn的项目
 
 
@@ -111,7 +111,7 @@ https://github.com/MirrorYuChen/ncnn_example
 
 
 
-## 工具类
+## Tools 工具类
 
 模型转换工具、对ncnn封装等相关项目
 
@@ -139,5 +139,9 @@ https://github.com/BUG1989/caffe-int8-convert-tools
 
 https://github.com/nullptr-leo/ncnn-lite
 
+
+### SRMD super resolution for VapourSynth
+
+https://github.com/Kiyamou/VapourSynth-SRMD-ncnn-Vulkan
 
 
