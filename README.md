@@ -8,6 +8,10 @@
 ## Applications 应用类
 针对具体任务、场景的基于ncnn的项目
 
+### face mask detection on Rasberry Pi 树莓派上的口罩检测
+
+https://github.com/Qengineering/Face-Mask-Detection-Raspberry-Pi-64-bits
+
 
 ### YOLOv5 NCNN Implementation
 
