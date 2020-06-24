@@ -140,6 +140,11 @@ https://github.com/BUG1989/caffe-int8-convert-tools
 https://github.com/nullptr-leo/ncnn-lite
 
 
+## Waifu2x filter for VapourSynth
+
+https://github.com/Nlzy/vapoursynth-waifu2x-ncnn-vulkan
+
+
 ### SRMD super resolution for VapourSynth
 
 https://github.com/Kiyamou/VapourSynth-SRMD-ncnn-Vulkan
