@@ -8,6 +8,13 @@
 ## Applications 应用类
 针对具体任务、场景的基于ncnn的项目
 
+### Android/iOS camera preview with YOLOv5
+
+移动端目标检测，当前项目使用的是YOLOv5的5s模型，摄像头实时捕获视频流进行检测
+
+https://github.com/WZTENG/YOLOv5_NCNN
+
+
 ### face mask detection on Rasberry Pi 树莓派上的口罩检测
 
 https://github.com/Qengineering/Face-Mask-Detection-Raspberry-Pi-64-bits
