@@ -161,3 +161,6 @@ https://github.com/Nlzy/vapoursynth-waifu2x-ncnn-vulkan
 https://github.com/Kiyamou/VapourSynth-SRMD-ncnn-Vulkan
 
 
+### ncnn .NET wrapper written in C++ and C# for Windows, MacOS and Linux
+
+https://github.com/takuya-takeuchi/NcnnDotNet
