@@ -8,6 +8,12 @@
 ## Applications 应用类
 针对具体任务、场景的基于ncnn的项目
 
+### ncnn-picture-enhancement ncnn照片去雾和水下增强
+
+A simple demo to run dehaze / underwater model in Android
+
+https://github.com/JuZiSYJ/ncnn-picture-enhancement
+
 ### Android/iOS camera preview with YOLOv5
 
 移动端目标检测，当前项目使用的是YOLOv5的5s模型，摄像头实时捕获视频流进行检测
