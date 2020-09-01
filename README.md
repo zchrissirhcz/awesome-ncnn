@@ -101,6 +101,10 @@ https://github.com/wanglaotou/centernet_ncnn
 
 https://github.com/JuZiSYJ/centerface-ncnn
 
+### deepsort tracking demo
+
+https://github.com/ProLing1994/demo_deepsort
+
 
 ### 超轻量级中文ocr，支持竖排文字识别, 支持ncnn推理
 
