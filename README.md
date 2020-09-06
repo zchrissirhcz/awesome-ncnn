@@ -32,6 +32,12 @@ YOLOv5 on Android based on NCNN
 
 https://github.com/sunnyden/YOLOV5_NCNN_Android
 
+### DAIN ncnn Vulkan
+
+DAIN, Depth-Aware Video Frame Interpolation implemented with ncnn library
+
+https://github.com/nihui/dain-ncnn-vulkan
+
 
 ### PFLD pytorch Implementation ，自带 ncnn 推理实现
 
