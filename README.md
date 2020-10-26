@@ -107,6 +107,12 @@ https://github.com/wanglaotou/centernet_ncnn
 
 https://github.com/JuZiSYJ/centerface-ncnn
 
+### PCN-ncnn for rotated face detection
+
+https://github.com/HandsomeHans/PCN-ncnn
+
+Progressive Calibration Networks (PCN) is an accurate rotation-invariant face detector running at real-time speed on CPU, published in CVPR 2018.
+
 ### deepsort tracking demo
 
 https://github.com/ProLing1994/demo_deepsort
