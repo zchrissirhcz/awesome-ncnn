@@ -14,6 +14,12 @@ A simple demo to run dehaze / underwater model in Android
 
 https://github.com/JuZiSYJ/ncnn-picture-enhancement
 
+### ncnnRay++
+
+A CMake / WASM integration of rayib UI and the Tencent ncnn C++ AI platform
+
+https://github.com/QuantScientist/ncnnRay
+
 ### Android/iOS camera preview with YOLOv5
 
 移动端目标检测，当前项目使用的是YOLOv5的5s模型，摄像头实时捕获视频流进行检测
