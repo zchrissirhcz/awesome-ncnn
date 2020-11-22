@@ -8,6 +8,15 @@
 ## Applications 应用类
 针对具体任务、场景的基于ncnn的项目
 
+### NanoDet NCNN Android Demo
+
+NanoDet: Super fast and lightweight anchor-free object detection model. 🔥Only 1.8mb and run 97FPS on cellphone.
+
+Providing NanoDet image inference, webcam inference and benchmark using Tencent's NCNN framework.
+
+https://github.com/RangiLyu/nanodet
+
+
 ### ncnn-picture-enhancement ncnn照片去雾和水下增强
 
 A simple demo to run dehaze / underwater model in Android
