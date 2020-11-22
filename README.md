@@ -17,6 +17,13 @@ Providing NanoDet image inference, webcam inference and benchmark using Tencent'
 https://github.com/RangiLyu/nanodet
 
 
+### ncnn-webassembly-yolov5
+
+Run NCNN based YoloV5 detector in your browser!
+
+https://github.com/nihui/ncnn-webassembly-yolov5
+
+
 ### ncnn-picture-enhancement ncnn照片去雾和水下增强
 
 A simple demo to run dehaze / underwater model in Android
