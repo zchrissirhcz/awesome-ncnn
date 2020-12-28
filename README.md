@@ -5,6 +5,12 @@
 [NCNN](https://github.com/tencent/ncnn) 是一个为手机端极致优化的高性能神经网络前向计算框架。[本仓库](https://github.com/zchrissirhcz/awesome-ncnn) 收集了基于NCNN的很棒的项目。欢迎 star & fork & pull request 一键三连！
 
 
+## Optimization
+
+### ncnn-with-cuda: Tencent NCNN with added CUDA support
+
+https://github.com/atanmarko/ncnn-with-cuda/
+
 ## Applications 应用类
 针对具体任务、场景的基于ncnn的项目
 
