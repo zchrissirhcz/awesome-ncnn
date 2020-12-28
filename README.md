@@ -170,6 +170,10 @@ https://github.com/MirrorYuChen/ncnn_example
 
 模型转换工具、对ncnn封装等相关项目
 
+### keras2ncnn: A keras h5df to ncnn model converter
+
+https://github.com/MarsTechHAN/keras2ncnn
+
 ### darknet ncnn android 工程
 
 https://github.com/paleomoon/darknet-ncnn-android
