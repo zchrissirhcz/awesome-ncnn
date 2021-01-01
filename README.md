@@ -22,6 +22,11 @@ Providing NanoDet image inference, webcam inference and benchmark using Tencent'
 
 https://github.com/RangiLyu/nanodet
 
+### ncnn-android-deeplabv3plus
+
+The deeplabv3+ person segmentation android example.
+
+https://github.com/runrunrun1994/ncnn-android-deeplabv3plus
 
 ### ncnn-webassembly-yolov5
 
