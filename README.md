@@ -16,7 +16,11 @@ https://github.com/atanmarko/ncnn-with-cuda/
 
 ### ncnn-swift: An example on using ncnn with Swift
 
-A project of using ncnn in Swift for modern iOS development. Right now it has an image classification exampe and the author may add an object detection one in the future. It will help Swift iOS developers utilize ncnn~
+A project of using ncnn in Swift for modern iOS development. Right now there are  examples for 
+- image classification
+- object detection(yolov5)
+
+And the author may add an object detection one in the future. It will help Swift iOS developers utilize ncnn~
 
 https://github.com/zhuzilin/ncnn-swift
 
