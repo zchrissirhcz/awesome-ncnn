@@ -20,7 +20,7 @@ A project of using ncnn in Swift for modern iOS development. Right now there are
 - image classification
 - object detection(yolov5)
 
-And the author may add an object detection one in the future. It will help Swift iOS developers utilize ncnn~
+It will help Swift iOS developers utilize ncnn~
 
 https://github.com/zhuzilin/ncnn-swift
 
