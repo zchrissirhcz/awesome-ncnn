@@ -14,6 +14,12 @@ https://github.com/atanmarko/ncnn-with-cuda/
 ## Applications 应用类
 针对具体任务、场景的基于ncnn的项目
 
+### ncnn-swift: An example on using ncnn with Swift
+
+A project of using ncnn in Swift for modern iOS development. Right now it has an image classification exampe and the author may add an object detection one in the future. It will help Swift iOS developers utilize ncnn~
+
+https://github.com/zhuzilin/ncnn-swift
+
 ### NanoDet NCNN Android Demo
 
 NanoDet: Super fast and lightweight anchor-free object detection model. 🔥Only 1.8mb and run 97FPS on cellphone.
