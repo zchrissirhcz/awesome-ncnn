@@ -14,6 +14,14 @@ https://github.com/atanmarko/ncnn-with-cuda/
 ## Applications 应用类
 针对具体任务、场景的基于ncnn的项目
 
+### hayoou safe driving android
+
+Lane detection (with FCW and LDW) android demo based on Yolov4 and Ultra fast lane detection.
+
+Runs at 8 fps on HONOR 20PRO Kirin 980 phone.
+
+https://github.com/youkpan/hayoou_safe_driving_android
+
 ### ncnn-swift: An example on using ncnn with Swift
 
 A project of using ncnn in Swift for modern iOS development. Right now there are  examples for 
