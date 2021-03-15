@@ -14,6 +14,14 @@ https://github.com/atanmarko/ncnn-with-cuda/
 ## Applications 应用类
 针对具体任务、场景的基于ncnn的项目
 
+## ncnn-android-nanodet
+
+The NanoDet object detection android project, with Android ndk camera for best efficiency.
+
+tutorial(in Chinese): [android camera nanodet 实时物体检测的高效实现总结](https://zhuanlan.zhihu.com/p/356991989)
+
+project: https://github.com/nihui/ncnn-android-nanodet
+
 ### hayoou safe driving android
 
 Lane detection (with FCW and LDW) android demo based on Yolov4 and Ultra fast lane detection.
