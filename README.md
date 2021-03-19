@@ -64,6 +64,8 @@ General object detection, face detection (and landmark) projects on Android plat
 
 - [VapourSynth-SRMD-ncnn-Vulkan](https://github.com/Kiyamou/VapourSynth-SRMD-ncnn-Vulkan) SRMD super resolution for VapourSynth
 
+- [Waifu2x-Extension-GUI](https://github.com/AaronFeng753/Waifu2x-Extension-GUI) Photo/Video/GIF enlargement and Video frame interpolation using machine learning (使用NCNN的图像超分辨率及视频插帧软件)
+
 ### Other
 
 - [ncnnRay++](https://github.com/QuantScientist/ncnnRay) A CMake / WASM integration of rayib UI and the Tencent ncnn C++ AI platform
