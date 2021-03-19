@@ -22,6 +22,8 @@ General object detection, face detection (and landmark) projects on Android plat
 
 - [ncnn-android-nanodet](https://github.com/nihui/ncnn-android-nanodet) NanoDet object detection android project with Android ndk camera for best efficiency. Tutorial: [android camera nanodet 实时物体检测的高效实现总结](https://zhuanlan.zhihu.com/p/356991989)
 
+- [thundernet_ncnn](https://github.com/DayBreak-u/thundernet_ncnn) The C++ version of thundernet with ncnn.
+
 - [hayoou_safe_driving_android](https://github.com/youkpan/hayoou_safe_driving_android) Lane detection (with FCW and LDW) android demo based on Yolov4 and Ultra fast lane detection, runs at 8 fps on HONOR 20PRO Kirin 980 phone.
 
 - [nanodet](https://github.com/RangiLyu/nanodet) NanoDet, a Super fast and lightweight anchor-free object detection model. 🔥Only 1.8mb and run 97FPS on cellphone, with training and NCNN based inference inside.
