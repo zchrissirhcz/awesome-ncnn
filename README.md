@@ -12,10 +12,12 @@
         - [Detection](#detection)
         - [Super Resolution](#super-resolution)
         - [Video Frame Interpolation](#video-frame-interpolation)
+        - [Wasm](#wasm)
         - [Other](#other)
     - [Tools](#tools)
     - [Wrappers](#wrappers)
     - [Optimization](#optimization)
+    - [Source Analysis](#source-analysis)
 ## Application projects
 ### Detection
 
@@ -75,6 +77,8 @@ General object detection, face detection (and landmark) projects on Android plat
 
 - [Waifu2x-Extension-GUI](https://github.com/AaronFeng753/Waifu2x-Extension-GUI) Photo/Video/GIF enlargement and Video frame interpolation using machine learning (使用NCNN的图像超分辨率及视频插帧软件)
 
+- [waifu2x-ncnn-vulkan-python](https://github.com/tonquer/waifu2x-ncnn-vulkan-python) Exporting pyd for python based on waifu2x-ncnn-vulkan (修改waifu2x-ncnn-vulkan项目，导出pyd给python使用)
+
 ### Video Frame Interpolation
 
 - [flowframes](https://github.com/n00mkrad/flowframes) Flowframes Windows GUI for video interpolation - Supports DAIN NCNN as well as RIFE Pytorch and NCNN implementations.
@@ -85,19 +89,20 @@ General object detection, face detection (and landmark) projects on Android plat
 
 - [dain-ncnn-vulkan](https://github.com/nihui/dain-ncnn-vulkan) ncnn implementation of DAIN, Depth-Aware Video Frame Interpolation.
 
-### Other
-
+### Wasm
 - [ncnnRay++](https://github.com/QuantScientist/ncnnRay) A CMake / WASM integration of rayib UI and the Tencent ncnn C++ AI platform
 
-- [ncnn-swift](https://github.com/zhuzilin/ncnn-swift) A project of using ncnn in Swift for modern iOS development, with image classification & object detection (yolov5) examples.
-
 - [ncnn-webassembly-yolov5](https://github.com/nihui/ncnn-webassembly-yolov5) Run NCNN based YoloV5 detector in your browser!
+
+- [ncnn-webassembly-blazeface](https://github.com/zineos/ncnn-webassembly-blazeface) Run blazeface detector in browser.
+
+### Other
+
+- [ncnn-swift](https://github.com/zhuzilin/ncnn-swift) A project of using ncnn in Swift for modern iOS development, with image classification & object detection (yolov5) examples.
 
 - [ncnn-android-deeplabv3plus](https://github.com/runrunrun1994/ncnn-android-deeplabv3plus) The deeplabv3+ person segmentation android example.
 
 - [ncnn-picture-enhancement](https://github.com/JuZiSYJ/ncnn-picture-enhancement) A simple demo to run dehaze / underwater model in Android (照片去雾和水下增强).
-
-- [dain-ncnn-vulkan](https://github.com/nihui/dain-ncnn-vulkan) DAIN, Depth-Aware Video Frame Interpolation implemented with ncnn library (视频插帧)
 
 - [enet-as-linux](https://github.com/watersink/enet-as-linux) 基于ncnn的android端的enet分割
 
@@ -138,3 +143,13 @@ Model convert tools and wrapper/bindings of ncnn (模型转换工具、对ncnn�
 ## Optimization
 
 - [ncnn-with-cuda](https://github.com/atanmarko/ncnn-with-cuda) Tencent NCNN with added CUDA support
+
+## Source Analysis
+
+- [ncnn_breakdown - by All Star](https://github.com/Zhengtq/ncnn_breakdown) A breakdown of NCNN (学习ncnn的过程的一个记录)
+
+- [ncnn初探 - by OFShare](https://www.zhihu.com/column/c_1320446932913762304) ncnn源码解析, 带你进入底层实现的点点滴滴.
+
+- [如何阅读一个前向推理框架？以NCNN为例 - by BBuf](https://blog.csdn.net/just_sort/article/details/111403398) 如何阅读NCNN框架
+
+- [ncnn源码分析 - by MirrorYuChen](https://blog.csdn.net/sinat_31425585/category_9312419.html)
