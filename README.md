@@ -25,6 +25,8 @@ General object detection, face detection (and landmark) projects on Android plat
 
 - [thundernet_ncnn](https://github.com/DayBreak-u/thundernet_ncnn) The C++ version of thundernet with ncnn.
 
+- [ncnn_nanodet_hand](https://github.com/FeiGeChuanShu/ncnn_nanodet_hand) Hand detection on android platform with ncnn (安卓平台人手检测)
+
 - [RobotVision2](https://github.com/hzq-zjm/RobotVision2) Real-time fatigue driving detection on the mobile platform (移动端实时疲劳驾驶检测)
 
 - [hayoou_safe_driving_android](https://github.com/youkpan/hayoou_safe_driving_android) Lane detection (with FCW and LDW) android demo based on Yolov4 and Ultra fast lane detection, runs at 8 fps on HONOR 20PRO Kirin 980 phone.
