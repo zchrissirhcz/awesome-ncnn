@@ -25,6 +25,8 @@ General object detection, face detection (and landmark) projects on Android plat
 
 - [thundernet_ncnn](https://github.com/DayBreak-u/thundernet_ncnn) The C++ version of thundernet with ncnn.
 
+- [RobotVision2](https://github.com/hzq-zjm/RobotVision2) Real-time fatigue driving detection on the mobile platform (移动端实时疲劳驾驶检测)
+
 - [hayoou_safe_driving_android](https://github.com/youkpan/hayoou_safe_driving_android) Lane detection (with FCW and LDW) android demo based on Yolov4 and Ultra fast lane detection, runs at 8 fps on HONOR 20PRO Kirin 980 phone.
 
 - [nanodet](https://github.com/RangiLyu/nanodet) NanoDet, a Super fast and lightweight anchor-free object detection model. 🔥Only 1.8mb and run 97FPS on cellphone, with training and NCNN based inference inside.
@@ -73,11 +75,13 @@ General object detection, face detection (and landmark) projects on Android plat
 
 ### Video Frame Interpolation
 
-[rife-ncnn-vulkan](https://github.com/nihui/rife-ncnn-vulkan) ncnn implementation of RIFE, Real-Time Intermediate Flow Estimation for Video Frame Interpolation.
+- [flowframes](https://github.com/n00mkrad/flowframes) Flowframes Windows GUI for video interpolation - Supports DAIN NCNN as well as RIFE Pytorch and NCNN implementations.
 
-[cain-ncnn-vulkan](https://github.com/nihui/cain-ncnn-vulkan) ncnn implementation of CAIN, Channel Attention Is All You Need for Video Frame Interpolation.
+- [rife-ncnn-vulkan](https://github.com/nihui/rife-ncnn-vulkan) ncnn implementation of RIFE, Real-Time Intermediate Flow Estimation for Video Frame Interpolation.
 
-[dain-ncnn-vulkan](https://github.com/nihui/dain-ncnn-vulkan) ncnn implementation of DAIN, Depth-Aware Video Frame Interpolation.
+- [cain-ncnn-vulkan](https://github.com/nihui/cain-ncnn-vulkan) ncnn implementation of CAIN, Channel Attention Is All You Need for Video Frame Interpolation.
+
+- [dain-ncnn-vulkan](https://github.com/nihui/dain-ncnn-vulkan) ncnn implementation of DAIN, Depth-Aware Video Frame Interpolation.
 
 ### Other
 
