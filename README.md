@@ -11,6 +11,7 @@
     - [Application projects](#application-projects)
         - [Detection](#detection)
         - [Super Resolution](#super-resolution)
+        - [Video Frame Interpolation](#video-frame-interpolation)
         - [Other](#other)
     - [Tools](#tools)
     - [Wrappers](#wrappers)
@@ -58,6 +59,10 @@ General object detection, face detection (and landmark) projects on Android plat
 
 ### Super Resolution
 
+- [realsr-ncnn-vulkan](https://github.com/nihui/realsr-ncnn-vulkan) ncnn implementation of Real-World Super-Resolution via Kernel Estimation and Noise Injection super resolution.
+
+- [srmd-ncnn-vulkan](https://github.com/nihui/srmd-ncnn-vulkan) ncnn implementation of SRMD super resolution.
+
 - [waifu2x-ncnn-vulkan](https://github.com/nihui/waifu2x-ncnn-vulkan) waifu2x converter ncnn version, runs fast on intel / amd / nvidia GPU with vulkan
 
 - [vapoursynth-waifu2x-ncnn-vulkan](https://github.com/Nlzy/vapoursynth-waifu2x-ncnn-vulkan) Waifu2x filter for VapourSynth
@@ -65,6 +70,14 @@ General object detection, face detection (and landmark) projects on Android plat
 - [VapourSynth-SRMD-ncnn-Vulkan](https://github.com/Kiyamou/VapourSynth-SRMD-ncnn-Vulkan) SRMD super resolution for VapourSynth
 
 - [Waifu2x-Extension-GUI](https://github.com/AaronFeng753/Waifu2x-Extension-GUI) Photo/Video/GIF enlargement and Video frame interpolation using machine learning (使用NCNN的图像超分辨率及视频插帧软件)
+
+### Video Frame Interpolation
+
+[rife-ncnn-vulkan](https://github.com/nihui/rife-ncnn-vulkan) ncnn implementation of RIFE, Real-Time Intermediate Flow Estimation for Video Frame Interpolation.
+
+[cain-ncnn-vulkan](https://github.com/nihui/cain-ncnn-vulkan) ncnn implementation of CAIN, Channel Attention Is All You Need for Video Frame Interpolation.
+
+[dain-ncnn-vulkan](https://github.com/nihui/dain-ncnn-vulkan) ncnn implementation of DAIN, Depth-Aware Video Frame Interpolation.
 
 ### Other
 
