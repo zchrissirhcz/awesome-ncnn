@@ -45,3 +45,57 @@ list(APPEND ANDROID_COMPILER_FLAGS
 
 P.S. 如果用 https://convertmodel.com 这个网站转换，发现报错，请在 ncnn卷卷群里 @大缺弦 ，他是这个网站的作者；或 @nihui ，他是 ncnn 作者。
 
+
+## 常见问题3. 怎样添加ncnn库到项目中？cmake方式怎么用？
+
+基于cmake，在CMakeLists.txt里写这几句：
+```cmake
+set(ncnn_DIR "<ncnn_install_dir>/lib/cmake/ncnn" CACHE PATH "Directory that contains ncnnConfig.cmake")
+find_package(ncnn REQUIRED)
+target_link_libraries(my_target ncnn)
+```
+其中 `ncnn_DIR`是包含`ncnnConfig.cmake`的目录；如果你的ncnn是手动编译的，在Linux/Mac下请先执行make install，`ncnn_install_dir`此时对应 `build/install` 目录。
+
+## 常见问题4. 找不到OpenCV？OpenCV_DIR设成什么？
+
+在自己的项目中使用到 opencv；或者是在ncnn的项目中希望跑通example例子，需要正确的找到opencv。cmake方式，是设定`OpenCV_DIR`，它的指，是包含`OpenCVConfig.cmake`的目录：注意请自行检查这个目录，而不是草率的设定为“OpenCV安装的根目录”，因为在Linux/Windows/Mac/Android下，这个目录不一样。
+
+例如本人的常用设定模板：
+```cmake
+if (CMAKE_HOST_SYSTEM_NAME MATCHES "Linux")
+    if (CMAKE_SYSTEM_NAME MATCHES "Linux")
+        #set(OpenCV_DIR "/home/zz/soft/opencv-4.5.1/lib/cmake/opencv4" CACHE PATH "") # shared
+        set(OpenCV_DIR "/home/zz/soft/opencv-4.5.1-static/lib/cmake/opencv4" CACHE PATH "") # static
+    elseif (ANDROID)
+        set(OpenCV_DIR "/home/zz/soft/opencv-4.5.1-android/sdk/native/jni" CACHE PATH "")
+    endif()
+elseif (CMAKE_HOST_SYSTEM_NAME MATCHES "Windows")
+    if (CMAKE_SYSTEM_NAME MATCHES "Windows")
+        #set(OpenCV_DIR "E:/lib/opencv/4.5.0" CACHE PATH "")
+        set(OpenCV_DIR "E:/lib/opencv/4.5.2-pre" CACHE PATH "")
+    elseif (ANDROID)
+        set(OpenCV_DIR "E:/soft/Android/opencv-4.5.0-android-sdk/sdk/native/jni" CACHE PATH "")
+    endif()
+elseif (CMAKE_HOST_SYSTEM_NAME MATCHES "Darwin")
+    if (CMAKE_SYSTEM_NAME MATCHES "Darwin")
+        set(OpenCV_DIR "/usr/local/opencv-4.2/lib/cmake/opencv4" CACHE PATH "")
+    elseif (ANDROID)
+        set(OpenCV_DIR "/Users/chris/soft/opencv-4.5.0-android-sdk/sdk/native/jni" CACHE PATH "")
+    endif()
+endif()
+find_package(OpenCV REQUIRED)
+target_link_libraries(testbed ${OpenCV_LIBS})
+```
+
+## 常见问题5. 为啥自己编译的ncnn android库特别大？
+
+很可能是没有去掉`-g`导致的。
+
+基于cmake和ninja，自行编译ncnn的android库，编译时注意：
+- 去掉`-g`参数以减小库体积：打开`$ANDROID_NDK/build/cmake/android.toolchain.cmake`
+```
+# 删除 "-g" 这行
+list(APPEND ANDROID_COMPILER_FLAGS
+  -g
+  -DANDROID
+```
