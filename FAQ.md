@@ -99,3 +99,43 @@ list(APPEND ANDROID_COMPILER_FLAGS
   -g
   -DANDROID
 ```
+
+## 常见问题6. undefined reference to `glslang::FinalizeProcess()'
+使用ncnn vulkan库时遇到报错例如：
+```
+/hone/inxsuno/inx-yocto-bsp/inx6qp/task/ncnn_inx8_build/install/lib/Libncnn.a(gpu.cpp.o): In function 'ncn::destroy
+_gpu_instance() ':
+gpu.cpp:(.text+0xfb8): undefined reference to 'glslang::FinalizeProcess() '
+/hone/inxsuno/inx-yocto-bsp/inx6qp/task/ncnn_imx8 butid/instal/ltb/l.tbncn .a(gpu.cpp.o): In function 'ncm:create gpu_instance() pu.cpp:(.text+0x39a0): undefined reference to 'glslang::InitializeProcess()'
+/hone/inxsuno/inx -ycto-bsp/in;oqp/task /ncm inmv8 buildjinstal/Lib/litncm.a(gpu.pp.o): In fucion ‘ncnm:comple spitv ole(char cost,in , nmn1 .oprto coste,cator<unsigned int> >&) ':
+gpu.cpp:(.text+Ox78b4): undefined reference to 'glslang::TShader : :TShader(EShLanguage)'
+gpu.cpp:(.text+×78c8): undefined reference to glslang::TShader:.setstringswithLengths(char const* const*,int const*,int)"
+Spu.cpp;(.text-+8x7B8dc): undefined reference to 'glslang Tshader :.dProcsses(std:.vectorsty:_co1:basic string chr ,tti.xchar_traitschar ,.sthallacatorcharpic_string<char, std::char_traits<char>, std::allocator<char> > > > const&)'
+gpu.cpp:(.text+0x78ec): undefined reference to 'glslang:: TShader ::setEntryPoint(char const*)'
+gpu.cpp:( . text+0x78f8): undefined reference to 'glslang::TShader::setSourceEntryPoint(char const*)'
+gpu.cpp:(.text+0x7a8c): undefined reference to ‘glslang::TShader ::.parse( TBuiltInResource const*，int，EProfile， boo
+, bool，EShMessages, glslang : : TShader : : Includer&)'
+gpu.cpp:(.text+0x7ad4): undefined reference to `glslang:: TShader ::getInfoLog()'
+pu.cpp:(.text+Ox7afc): undefined reference to 'glslang::TShader ::getInfoDebugLog()'gpu.cpp:(.text+0x7b20): undefined reference to `glslang::TShader::~TShader() '
+Jpu.gp:(.text+6x84f4): undefined reference to ‘glslang;clslangTosp(glslng.e TIntenediate cost& lstt.wecoransigned nt, stir:alloctoransigned int >, glslag:gpu.cpp:(.text+0x8500): undefined reference to 'glslang:: TShader :~TShader()'
+pu.cpp:(.text+0x9618): undefined reference to 'glslang::TShader : :~TShader()'collect2 : error : ld returned 1.exit status
+nake[2]:***[TEST_PIPLINE]错误1
+ake[1j:***[CMakeFiles /TEST_PIPLINE.dir/all]错误﹖
+```
+
+错误的写法：
+```cmake
+set(NCC_INCLUDE_DIRS /home/imxsumo/imx-yocto-bsp/imx6qp/task/ncnn_imx8_build/install/include/ncnn)
+
+target_link_libraries(TEST_PIPLINE glslang MachineIndependent SPIRV ncnn ${OpenCV_LIBS} ${FT_LIBS} pthread g2d gomp vulkan)
+```
+
+
+原因：CMakeLists.txt中，自行手动指定的ncnn静态库，以及vulkan相关的glslang库等，但顺序没弄对。
+
+解决方法：`find_package(ncnn)`，它会自动设定正确的链接库及其顺序
+```
+set(ncnn_DIR "<ncnn_install_dir>/lib/cmake/ncnn" CACHE PATH "Directory that contains ncnnConfig.cmake")
+find_package(ncnn REQUIRED)
+target_link_libraries(my_target ncnn)
+```
