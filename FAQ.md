@@ -139,3 +139,11 @@ set(ncnn_DIR "<ncnn_install_dir>/lib/cmake/ncnn" CACHE PATH "Directory that cont
 find_package(ncnn REQUIRED)
 target_link_libraries(my_target ncnn)
 ```
+
+## 常见问题7. up主用的什么系统/编辑器？
+
+- 系统：Fedora
+- 编辑器：Kate
+- 桌面：KDE
+- 画草图：kolourpaint
+- 画函数图像：kmplot
