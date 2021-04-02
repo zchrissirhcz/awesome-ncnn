@@ -98,6 +98,8 @@ General object detection, face detection (and landmark) projects on Android plat
 
 ### Other
 
+- [ncnn_paddleocr](https://github.com/FeiGeChuanShu/ncnn_paddleocr) convert paddleocr light model to ncnn,you can use it by ncnn.
+
 - [ncnn-swift](https://github.com/zhuzilin/ncnn-swift) A project of using ncnn in Swift for modern iOS development, with image classification & object detection (yolov5) examples.
 
 - [ncnn-android-deeplabv3plus](https://github.com/runrunrun1994/ncnn-android-deeplabv3plus) The deeplabv3+ person segmentation android example.
