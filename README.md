@@ -98,6 +98,8 @@ General object detection, face detection (and landmark) projects on Android plat
 
 ### Other
 
+- [ncnn-portrait-segmentation](https://github.com/leeys888/ncnn-portrait-segmentation) Real-time human segmentation on CPU
+
 - [ncnn_paddleocr](https://github.com/FeiGeChuanShu/ncnn_paddleocr) convert paddleocr light model to ncnn,you can use it by ncnn.
 
 - [ncnn-swift](https://github.com/zhuzilin/ncnn-swift) A project of using ncnn in Swift for modern iOS development, with image classification & object detection (yolov5) examples.
