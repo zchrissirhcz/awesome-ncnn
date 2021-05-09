@@ -90,6 +90,11 @@ General object detection, face detection (and landmark) projects on Android plat
 - [dain-ncnn-vulkan](https://github.com/nihui/dain-ncnn-vulkan) ncnn implementation of DAIN, Depth-Aware Video Frame Interpolation.
 
 ### Wasm
+
+- [ncnn-webassembly-portrait-segmentation](https://github.com/nihui/ncnn-webassembly-portrait-segmentation) Portrait segmentation in your browser with ncnn and webassembly
+
+- [ncnn-webassembly-nanodet](https://github.com/nihui/ncnn-webassembly-nanodet) Deploy nanodet, the super fast and lightweight object detection, in your web browser with ncnn and webassembly
+
 - [ncnnRay++](https://github.com/QuantScientist/ncnnRay) A CMake / WASM integration of rayib UI and the Tencent ncnn C++ AI platform
 
 - [ncnn-webassembly-yolov5](https://github.com/nihui/ncnn-webassembly-yolov5) Run NCNN based YoloV5 detector in your browser!
