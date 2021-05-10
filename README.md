@@ -103,6 +103,8 @@ General object detection, face detection (and landmark) projects on Android plat
 
 ### Other
 
+- [ncnn_Android_hair](https://github.com/FeiGeChuanShu/ncnn_Android_hair) Android hair segmentation demo by ncnn (基于 ncnn 的头发分割 android demo app)
+
 - [ncnn-portrait-segmentation](https://github.com/leeys888/ncnn-portrait-segmentation) Real-time human segmentation on CPU
 
 - [ncnn_paddleocr](https://github.com/FeiGeChuanShu/ncnn_paddleocr) convert paddleocr light model to ncnn,you can use it by ncnn.
