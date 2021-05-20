@@ -91,6 +91,8 @@ General object detection, face detection (and landmark) projects on Android plat
 
 ### Wasm
 
+- [ncnn-webassembly-scrfd](https://github.com/nihui/ncnn-webassembly-scrfd) Deploy SCRFD, an efficient high accuracy face detection approach, in your web browser with ncnn and webassembly
+
 - [ncnn-webassembly-ocrlite](https://github.com/Sg4Dylan/ncnn-webassembly-ocrlite) Deploy OcrLite in your web browser with ncnn and webassembly
 
 - [ncnn-webassembly-portrait-segmentation](https://github.com/nihui/ncnn-webassembly-portrait-segmentation) Portrait segmentation in your browser with ncnn and webassembly
