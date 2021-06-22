@@ -17,6 +17,7 @@
     - [Tools](#tools)
     - [Wrappers](#wrappers)
     - [Optimization](#optimization)
+    - [Training](#training)
     - [Source Analysis](#source-analysis)
 ## Application projects
 ### Detection
@@ -158,6 +159,10 @@ Model convert tools and wrapper/bindings of ncnn (模型转换工具、对ncnn�
 ## Optimization
 
 - [ncnn-with-cuda](https://github.com/atanmarko/ncnn-with-cuda) Tencent NCNN with added CUDA support
+
+## Training
+
+- [ncnnqat](https://github.com/ChenShisen/ncnnqat) quantize aware training package for NCNN on pytorch.
 
 ## Source Analysis
 
