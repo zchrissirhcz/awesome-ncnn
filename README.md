@@ -24,6 +24,8 @@
 
 General object detection, face detection (and landmark) projects on Android platform.
 
+- [ncnn-android-yolox](https://github.com/FeiGeChuanShu/ncnn-android-yolox) YOLOX detection android demo based on NCNN.
+
 - [ncnn-android-nanodet](https://github.com/nihui/ncnn-android-nanodet) NanoDet object detection android project with Android ndk camera for best efficiency. Tutorial: [android camera nanodet 实时物体检测的高效实现总结](https://zhuanlan.zhihu.com/p/356991989)
 
 - [thundernet_ncnn](https://github.com/DayBreak-u/thundernet_ncnn) The C++ version of thundernet with ncnn.
