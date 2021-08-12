@@ -110,6 +110,8 @@ General object detection, face detection (and landmark) projects on Android plat
 
 ### Other
 
+- [OpenSitUp](https://github.com/DL-Practise/OpenSitUp) OpenSitUp是一个基于姿态估计的开源项目，基于 ncnn 搭建了一个在android手机上运行的仰卧起坐计数APP
+
 - [SeqSeq ncnn](https://github.com/DayBreak-u/seq2seq_ncnn) The C++ version of SeqSeq with ncnn
 
 - [SOLOV2_ncnn](https://github.com/DayBreak-u/SOLOV2_ncnn) The C++ version of solov2 with ncnn 
