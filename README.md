@@ -92,6 +92,14 @@ General object detection, face detection (and landmark) projects on Android plat
 
 - [dain-ncnn-vulkan](https://github.com/nihui/dain-ncnn-vulkan) ncnn implementation of DAIN, Depth-Aware Video Frame Interpolation.
 
+### Pose Estimation
+
+- [NCNN_Android_SinglePoseEstimation](https://github.com/ZtoYtoQ/NCNN_Android_SinglePoseEstimation) 单人人体姿态定位 android 工程
+
+- [NCNN-PoseEstimation](https://github.com/ZtoYtoQ/NCNN-PoseEstimation) Realtime Pose Estimation NCNN ONNX 
+
+- [ncnn_Android_MoveNet](https://github.com/FeiGeChuanShu/ncnn_Android_MoveNet) Android MoveNet pose estimation by ncnn
+
 ### Wasm
 
 - [ncnn-webassembly-scrfd](https://github.com/nihui/ncnn-webassembly-scrfd) Deploy SCRFD, an efficient high accuracy face detection approach, in your web browser with ncnn and webassembly
@@ -131,10 +139,6 @@ General object detection, face detection (and landmark) projects on Android plat
 - [enet-as-linux](https://github.com/watersink/enet-as-linux) 基于ncnn的android端的enet分割
 
 - [mobile-lpr](https://github.com/xiangweizeng/mobile-lpr) 一个面向移动端的准商业级车牌识别库
-
-- [NCNN_Android_SinglePoseEstimation](https://github.com/ZtoYtoQ/NCNN_Android_SinglePoseEstimation) 单人人体姿态定位 android 工程
-
-- [NCNN-PoseEstimation](https://github.com/ZtoYtoQ/NCNN-PoseEstimation) Realtime Pose Estimation NCNN ONNX 
 
 - [demo_deepsort](https://github.com/ProLing1994/demo_deepsort) deepsort tracking demo
 
