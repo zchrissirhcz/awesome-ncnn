@@ -12,6 +12,7 @@
         - [Detection](#detection)
         - [Super Resolution](#super-resolution)
         - [Video Frame Interpolation](#video-frame-interpolation)
+        - [Segmentation](#segmentation)
         - [Wasm](#wasm)
         - [Other](#other)
     - [Tools](#tools)
@@ -100,6 +101,22 @@ General object detection, face detection (and landmark) projects on Android plat
 
 - [ncnn_Android_MoveNet](https://github.com/FeiGeChuanShu/ncnn_Android_MoveNet) Android MoveNet pose estimation by ncnn
 
+- [deep-head-pose-ncnn](https://github.com/docongminh/deep-head-pose-ncnn) Simple inference deep head pose ncnn version.
+
+### Segmentation
+
+- [RobustVideoMatting](https://github.com/FeiGeChuanShu/ncnn_Android_RobustVideoMatting) Android human segmentation by ncnn.
+
+- [ncnn_Android_hair](https://github.com/FeiGeChuanShu/ncnn_Android_hair) Android hair segmentation demo by ncnn (基于 ncnn 的头发分割 android demo app)
+
+- [ncnn-portrait-segmentation](https://github.com/leeys888/ncnn-portrait-segmentation) Real-time human segmentation on CPU
+
+- [ncnn-android-deeplabv3plus](https://github.com/runrunrun1994/ncnn-android-deeplabv3plus) The deeplabv3+ person segmentation android example.
+
+- [SOLOV2_ncnn](https://github.com/DayBreak-u/SOLOV2_ncnn) The C++ version of solov2 with ncnn 
+
+- [Sky-Segmentation-and-Post-processing](https://github.com/xiongzhu666/Sky-Segmentation-and-Post-processing) C++ implementation for Sky segmentation and post-processing for the paper [https://arxiv.org/abs/2006.10172](https://arxiv.org/abs/2006.10172) with ncnn.
+
 ### Wasm
 
 - [ncnn-webassembly-scrfd](https://github.com/nihui/ncnn-webassembly-scrfd) Deploy SCRFD, an efficient high accuracy face detection approach, in your web browser with ncnn and webassembly
@@ -118,21 +135,21 @@ General object detection, face detection (and landmark) projects on Android plat
 
 ### Other
 
+- [YOLOP-NCNN](https://github.com/EdVince/YOLOP-NCNN) _You Only Look Once for Panopitic Driving Perception_, Android app by ncnn (车辆检测+路面分割+车道线分割 三合一的网络, Android Demo).
+
+- [SID-NCNN](https://github.com/EdVince/SID-NCNN) _Learning to See in the Dark_ running in Android by ncnn with Raw Camera (CVPR2018'Learning to See in the Dark, 暗光成像，用ncnn在安卓上进行简单的部署实现)
+
+- [monodepth-NCNN](https://github.com/EdVince/monodepth-NCNN) Deploy wavelet-monodepth ([CVPR 2021  Monocular depth estimation using wavelets for efficiency](https://github.com/nianticlabs/wavelet-monodepth) ) model on Android with ncnn (将wavelet-monodepth的模型搬运到NCNN上，工程里面给了安卓的工程以及以及生成好的app安装包).
+
+- [PiDiNet-NCNN](https://github.com/EdVince/PiDiNet-NCNN) Deploy PiDINet([Pixel Difference Networks for Efficient Edge Detection](https://github.com/zhuoinoulu/pidinet)) on Android with ncnn (使用NCNN在安卓上实现PiDiNet这个边缘检测网络)
+
 - [OpenSitUp](https://github.com/DL-Practise/OpenSitUp) OpenSitUp是一个基于姿态估计的开源项目，基于 ncnn 搭建了一个在android手机上运行的仰卧起坐计数APP
 
 - [SeqSeq ncnn](https://github.com/DayBreak-u/seq2seq_ncnn) The C++ version of SeqSeq with ncnn
 
-- [SOLOV2_ncnn](https://github.com/DayBreak-u/SOLOV2_ncnn) The C++ version of solov2 with ncnn 
-
-- [ncnn_Android_hair](https://github.com/FeiGeChuanShu/ncnn_Android_hair) Android hair segmentation demo by ncnn (基于 ncnn 的头发分割 android demo app)
-
-- [ncnn-portrait-segmentation](https://github.com/leeys888/ncnn-portrait-segmentation) Real-time human segmentation on CPU
-
 - [ncnn_paddleocr](https://github.com/FeiGeChuanShu/ncnn_paddleocr) convert paddleocr light model to ncnn,you can use it by ncnn.
 
 - [ncnn-swift](https://github.com/zhuzilin/ncnn-swift) A project of using ncnn in Swift for modern iOS development, with image classification & object detection (yolov5) examples.
-
-- [ncnn-android-deeplabv3plus](https://github.com/runrunrun1994/ncnn-android-deeplabv3plus) The deeplabv3+ person segmentation android example.
 
 - [ncnn-picture-enhancement](https://github.com/JuZiSYJ/ncnn-picture-enhancement) A simple demo to run dehaze / underwater model in Android (照片去雾和水下增强).
 
