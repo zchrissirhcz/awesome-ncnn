@@ -12,6 +12,7 @@
         - [Detection](#detection)
         - [Super Resolution](#super-resolution)
         - [Video Frame Interpolation](#video-frame-interpolation)
+        - [Pose Estimation](#pose-estimation)
         - [Segmentation](#segmentation)
         - [Wasm](#wasm)
         - [Other](#other)
