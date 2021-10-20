@@ -1,13 +1,13 @@
-# Awesome-NCNN
+# Awesome-ncnn
 
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
-[NCNN](https://github.com/tencent/ncnn) is a high-performance neural network inference framework optimized for the mobile platform. [This repo](https://github.com/zchrissirhcz/awesome-ncnn) lists some awesome ncnn-based projects. Welcome Star & Fork & Pull Requests!
+[ncnn](https://github.com/tencent/ncnn) is a high-performance neural network inference framework optimized for the mobile platform. [This repo](https://github.com/zchrissirhcz/awesome-ncnn) lists some awesome ncnn-based projects. Welcome Star & Fork & Pull Requests!
 
-[NCNN](https://github.com/tencent/ncnn) 是一个为手机端极致优化的高性能神经网络前向计算框架。[本仓库](https://github.com/zchrissirhcz/awesome-ncnn) 收集了基于NCNN的很棒的项目。欢迎 Star & Fork & Pull Request 一键三连！
+[ncnn](https://github.com/tencent/ncnn) 是一个为手机端极致优化的高性能神经网络前向计算框架。[本仓库](https://github.com/zchrissirhcz/awesome-ncnn) 收集了基于ncnn的很棒的项目。欢迎 Star & Fork & Pull Request 一键三连！
 
 ## Contents
-- [Awesome-NCNN](#awesome-ncnn)
+- [Awesome-ncnn](#awesome-ncnn)
     - [Application projects](#application-projects)
         - [Detection](#detection)
         - [Super Resolution](#super-resolution)
@@ -24,7 +24,7 @@
 
 General object detection, face detection (and landmark) projects on Android platform.
 
-- [ncnn-android-yolox](https://github.com/FeiGeChuanShu/ncnn-android-yolox) YOLOX detection android demo based on NCNN.
+- [ncnn-android-yolox](https://github.com/FeiGeChuanShu/ncnn-android-yolox) YOLOX detection android demo based on ncnn.
 
 - [ncnn-android-nanodet](https://github.com/nihui/ncnn-android-nanodet) NanoDet object detection android project with Android ndk camera for best efficiency. Tutorial: [android camera nanodet 实时物体检测的高效实现总结](https://zhuanlan.zhihu.com/p/356991989)
 
