@@ -84,6 +84,8 @@ General object detection, face detection (and landmark) projects on Android plat
 
 - [waifu2x-ncnn-vulkan-python](https://github.com/tonquer/waifu2x-ncnn-vulkan-python) Exporting pyd for python based on waifu2x-ncnn-vulkan (修改waifu2x-ncnn-vulkan项目，导出pyd给python使用)
 
+- [media2x/waifu2x-ncnn-vulkan-python](https://github.com/media2x/waifu2x-ncnn-vulkan-python) A Python FFI of nihui/waifu2x-ncnn-vulkan achieved with SWIG. This project only wraps the original Waifu2x class and is now used by [video2x](https://github.com/k4yt3x/video2x) and [anime2x-multibackend](https://github.com/ArchieMeng/anime2x-multibackend).
+
 ### Video Frame Interpolation
 
 - [flowframes](https://github.com/n00mkrad/flowframes) Flowframes Windows GUI for video interpolation - Supports DAIN NCNN as well as RIFE Pytorch and NCNN implementations.
@@ -93,6 +95,8 @@ General object detection, face detection (and landmark) projects on Android plat
 - [cain-ncnn-vulkan](https://github.com/nihui/cain-ncnn-vulkan) ncnn implementation of CAIN, Channel Attention Is All You Need for Video Frame Interpolation.
 
 - [dain-ncnn-vulkan](https://github.com/nihui/dain-ncnn-vulkan) ncnn implementation of DAIN, Depth-Aware Video Frame Interpolation.
+
+- [rife-ncnn-vulkan-python](https://github.com/media2x/rife-ncnn-vulkan-python) A Python FFI of nihui/rife-ncnn-vulkan achieved with SWIG.
 
 ### Pose Estimation
 
