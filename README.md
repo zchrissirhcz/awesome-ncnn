@@ -9,6 +9,7 @@
 ## Contents
 - [Awesome-NCNN](#awesome-ncnn)
     - [Application projects](#application-projects)
+        - [Fancy Applications](#fancy-applications)
         - [Detection](#detection)
         - [Super Resolution](#super-resolution)
         - [Video Frame Interpolation](#video-frame-interpolation)
@@ -22,6 +23,10 @@
     - [Training](#training)
     - [Source Analysis](#source-analysis)
 ## Application projects
+
+### Fancy Applications
+- [ClothingTransfer-NCNN](https://github.com/EdVince/ClothingTransfer-NCNN) ClothingTransfer/Virtual-Try-On with ncnn. 基于ncnn的服装迁移/虚拟试穿
+
 ### Detection
 
 General object detection, face detection (and landmark) projects on Android platform.
