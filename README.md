@@ -76,20 +76,14 @@ General object detection, face detection (and landmark) projects on Android plat
 ### Super Resolution
 
 - [realsr-ncnn-vulkan](https://github.com/nihui/realsr-ncnn-vulkan) ncnn implementation of Real-World Super-Resolution via Kernel Estimation and Noise Injection super resolution.
-
 - [srmd-ncnn-vulkan](https://github.com/nihui/srmd-ncnn-vulkan) ncnn implementation of SRMD super resolution.
-
 - [waifu2x-ncnn-vulkan](https://github.com/nihui/waifu2x-ncnn-vulkan) waifu2x converter ncnn version, runs fast on intel / amd / nvidia GPU with vulkan
-
 - [vapoursynth-waifu2x-ncnn-vulkan](https://github.com/Nlzy/vapoursynth-waifu2x-ncnn-vulkan) Waifu2x filter for VapourSynth
-
 - [VapourSynth-SRMD-ncnn-Vulkan](https://github.com/Kiyamou/VapourSynth-SRMD-ncnn-Vulkan) SRMD super resolution for VapourSynth
-
 - [Waifu2x-Extension-GUI](https://github.com/AaronFeng753/Waifu2x-Extension-GUI) Photo/Video/GIF enlargement and Video frame interpolation using machine learning (使用NCNN的图像超分辨率及视频插帧软件)
-
 - [waifu2x-ncnn-vulkan-python](https://github.com/tonquer/waifu2x-ncnn-vulkan-python) Exporting pyd for python based on waifu2x-ncnn-vulkan (修改waifu2x-ncnn-vulkan项目，导出pyd给python使用)
-
 - [media2x/waifu2x-ncnn-vulkan-python](https://github.com/media2x/waifu2x-ncnn-vulkan-python) A Python FFI of nihui/waifu2x-ncnn-vulkan achieved with SWIG. This project only wraps the original Waifu2x class and is now used by [video2x](https://github.com/k4yt3x/video2x) and [anime2x-multibackend](https://github.com/ArchieMeng/anime2x-multibackend).
+- [Real-CUGAN-ncnn-vulkan](https://github.com/nihui/realcugan-ncnn-vulkan#real-cugan-ncnn-vulkan) A two dimensions anime super resolution project. (二次元动漫超分项目) ncnn implementation of Real-CUGAN converter. Runs fast on Intel / AMD / Nvidia with Vulkan API.
 
 ### Video Frame Interpolation
 
