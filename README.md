@@ -131,7 +131,9 @@ General object detection, face detection (and landmark) projects on Android plat
 
 - [ncnn-webassembly-nanodet](https://github.com/nihui/ncnn-webassembly-nanodet) Deploy nanodet, the super fast and lightweight object detection, in your web browser with ncnn and webassembly
 
-- [ncnnRay++](https://github.com/QuantScientist/ncnnRay) A CMake / WASM integration of rayib UI and the Tencent ncnn C++ AI platform
+- ncnnRay++ A CMake / WASM integration of rayib UI and the Tencent ncnn C++ AI platform
+    - Original repo(now broken): https://github.com/QuantScientist/ncnnRay
+    - An fork of the original: https://github.com/stjordanis/ncnnRay
 
 - [ncnn-webassembly-yolov5](https://github.com/nihui/ncnn-webassembly-yolov5) Run NCNN based YoloV5 detector in your browser!
 
